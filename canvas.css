@@ -1,0 +1,25 @@
+body {
+    background-color: azure;
+}
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+#myCanvas1 {
+    border: none;
+    background-color: aqua;
+}
+#myCanvas1:hover {
+    background-color: aquamarine;
+}
+#myCanvas {
+    border: none;
+    background-color: lightblue;
+}
+#myCanvas:hover {
+    background-color: aqua;
+}
+
