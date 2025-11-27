@@ -70,12 +70,23 @@ ctx1.lineTo(320, 150);
 ctx1.fillStyle = "white";
 ctx1.fill();
 
-
+//Roof lines
+ctx1.beginPath();
+ctx1.strokeStyle = "green";
+ctx1.moveTo(200, 60);
+ctx1.lineTo(200, 150);
+ctx1.stroke();
 
 
 // Door
 ctx1.fillStyle = "white"; 
 ctx1.fillRect(170, 190, 60, 60);
+
+//Door line
+ctx1.beginPath();
+ctx1.moveTo(200, 190);
+ctx1.lineTo(200, 250);
+ctx1.stroke();
 
 
 
@@ -85,3 +96,33 @@ ctx1.arc(140, 185, 20, 0, 2 * Math.PI); // x, y, radius
 ctx1.fillStyle = "white"; // light blue
 ctx1.arc(260, 185, 20, 0, 2 * Math.PI);
 ctx1.fill();
+
+// Window vertical line right
+ctx1.beginPath();
+ctx1.moveTo(240, 185);
+ctx1.lineTo(280, 185);
+ctx1.stroke();
+
+//window horizontal line right
+ctx1.beginPath();
+ctx1.moveTo(260, 165);
+ctx1.lineTo(260, 205);
+ctx1.stroke();
+
+
+
+//Window vertical line left
+ctx1.beginPath();
+ctx1.moveTo(120, 185);
+ctx1.lineTo(160, 185);
+ctx1.stroke();
+
+//Window horizantal line left
+ctx1.beginPath();
+ctx1.moveTo(140, 165);
+ctx1.lineTo(140, 205);
+ctx1.stroke();
+
+
+
+
